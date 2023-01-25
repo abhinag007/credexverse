@@ -1,5 +1,5 @@
 import './style.css';
-import * as THREE from 'three';
+import * as THREE from './Credexverse/libs/three/three.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 // import { VRButton } from './three/examples/jsm/webxr/VRButton.js';
 import { XRControllerModelFactory } from './Credexverse/libs/three/jsm/XRControllerModelFactory.js';
@@ -7,6 +7,7 @@ import { CanvasUI } from './Credexverse/libs/CanvasUI.js';
 
 
 // Setup
+
 
 const scene = new THREE.Scene();
 

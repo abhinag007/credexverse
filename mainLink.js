@@ -1,5 +1,5 @@
 function MoveToEnv() {
   
-    location.replace("Credexverse/index.html")
+    location.href = "https://meta-rose-eta.vercel.app/"
 
 }
